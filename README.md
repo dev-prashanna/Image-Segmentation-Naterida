@@ -1,4 +1,4 @@
-# U-Net Agricultural Terrain Segmentation
+# Image Segmentation Naterida
 
 A semantic segmentation pipeline for autonomous agricultural robots, using U-Net trained on automatically generated pixel-level annotations via GroundingDINO + SAM. Data is collected through a simulated Pioneer 3-AT robot performing random-walk exploration in Webots.
 
@@ -118,8 +118,8 @@ unet_agricultural_segmentation/
 
 ```bash
 # Clone the repository
-git clone https://github.com/dev-prashanna/unet_agricultural_segmentation.git
-cd unet_agricultural_segmentation
+git clone https://github.com/dev-prashanna/Image-Segmentation-Naterida.git
+cd Image-Segmentation-Naterida
 
 # Create conda environment
 conda create -n seg python=3.10
