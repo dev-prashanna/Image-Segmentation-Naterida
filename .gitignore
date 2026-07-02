@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+.venv/
+venv/
+
+# Model weights (download separately)
+models/*.pth
+
+# Bulk dataset images (use download_dataset.py or collect from simulation)
+dataset/images/frame_*.png
+dataset/masks/frame_*.png
+dataset/overlays/frame_*.png
+dataset/masks/*_visible.png
+
+# Webots
+*.wbproj
+*.wbt~
+*.wbc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
