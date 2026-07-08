@@ -1,6 +1,11 @@
-# Image Segmentation Naterida
+# Semantic Segmentation for Autonomous Agricultural Robots
 
-A semantic segmentation pipeline for autonomous agricultural robots, using U-Net trained on automatically generated pixel-level annotations via GroundingDINO + SAM. Data is collected through a simulated Pioneer 3-AT robot performing random-walk exploration in Webots.
+[![Python](https://img.shields.io/badge/Python-3.10+-yellow)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red)](https://pytorch.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Webots](https://img.shields.io/badge/Simulator-Webots-blue)](https://cyberbotics.com/)
+
+U-Net semantic segmentation for autonomous agricultural robots with auto-generated labels via GroundingDINO + SAM.
 
 ## Overview
 
@@ -245,6 +250,14 @@ If you use this work, please cite:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 The MIT License gives you full liberty to use, modify, and distribute this software for any purpose, including commercial use, provided the original copyright notice is included.
+
+## References
+
+- Ronneberger et al. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. *MICCAI*.
+- Liu et al. (2024). Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection. *ECCV*.
+- Kirillov et al. (2023). Segment Anything. *ICCV*.
+- [Webots Robot Simulator](https://cyberbotics.com/)
+- [NATERIDA Project](https://github.com/DeV-PrasiddhA/NATERIDA)
 
 ## Acknowledgments
 
