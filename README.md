@@ -21,7 +21,7 @@ This project segments agricultural scenes into **5 terrain classes**:
 
 ## Dataset Samples
 
-The dataset consists of 888 image-mask pairs collected from Webots simulation. Below are 3 representative samples showing the input image, auto-generated segmentation mask, and overlay visualization.
+The dataset consists of 888 image-mask pairs collected from Webots simulation. Below are 3 representative samples showing the input image, auto-generated segmentation mask, and overlay visualization. The full dataset is availabe at https://drive.google.com/drive/folders/1T9Ag3O7-WQAblQ1ftHho6TYSOaTJ--nL?usp=sharing
 
 ### Sample 1
 
